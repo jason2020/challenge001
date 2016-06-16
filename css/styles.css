@@ -1,7 +1,6 @@
-html, body {
+html, body, h1 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
 }
 
 #main {
@@ -11,13 +10,15 @@ html, body {
 	margin: 0 auto;
 	text-align: center;
 	color: white;
-	font-weight: numquam;
+	font-family: 'Raleway', sans-serif;
 }
 
 .circle {
 	width: 85px;
 	height: 85px;
-	-webkit-border-radius: 60px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%; 
+	border-radius: 100%; 
 	background-color: #FFF8F8;
 }
 
@@ -37,18 +38,19 @@ html, body {
 }
 
 .content-wrapper {
-	text-align: center;
 	margin: 0 auto;
 	width: 45%;
 	height: 35%;
+	font-family: 'Muli', sans-serif;
+	color: #A09E9E;
 }
 
 #arrow {
-	width: 60%;
-	height: 40%;
+	width: 70%;
+	height: 50%;
 	z-index: 10;
-	margin-left: 20%;
-	margin-top: 30%;
+	margin-left: 15.5%;
+	margin-top: 32%;
 }
 
 #surround {
@@ -56,7 +58,7 @@ html, body {
 	width: 60px;
 	height: 60px;
 	margin-left: 48%;
-	border: 0.5px solid #D7D7D7;
+	border: 1px solid #D7D7D7;
 	margin-top: -25px;
 }
 
@@ -75,4 +77,11 @@ html, body {
 
 #headText {
 	text-align: left;
+	font-size: 20px;
+}
+
+#text {
+	text-align: left;
+	margin-top: -3%;
+	font-size: 16px;
 }
